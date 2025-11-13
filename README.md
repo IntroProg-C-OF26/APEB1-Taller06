@@ -2,11 +2,32 @@
 
 ## Construcción de programas usando estructuras de selección simple y compuesta
 
-* Leer detenidamente cada problemática propuesta.
-* Programar/codificar con el lenguaje de alto nivel Java (IDE NetBeans), sus soluciones a cada uno de los problemas listados a continuación. 
-* Para cada programa, genere una clase independiente pero dentro de un solo/único proyecto Java App. No olvide titular a cada clase, con el nombre representativo de la solución y con el número del problema de este listado. 
-* Verificar que sus soluciones son correctas con las técnicas de compilación, ejecución y depurado de programas.
-* Al final como parte de la codificación (en comentario /*** ), copiar y pegar los resultados obtenidos de la consola, evidenciando el funcionamiento de su solución. 
+* En su asignatura ***Fundamentos computacionales***, resolvió *(análisis, diseño de algoritmos, flujograma, prueba de escritorio, etc.)*, algunos problemas con estructuras de control selectivas básicas, dobles y anidadas. El objetivo a continuación es codificar similares algoritmos, pero en el lenguaje de programación de alto nivel **JAVA**. 
+* Programar/codificar en el lenguaje de alto nivel Java *(en el IDE NetBeans)*, sus soluciones a cada uno de los problemas listados a continuación dadas las siguientes instrucciones: 
+    1. Clone este repositorio en su **PC** local `git clone URL_del_repo` 
+    2. En su ***IDE*** cree un nuevo proyecto de tipo ***Java Application*** con el siguiente nombre: ***Proyect-APEB1-Taller06*** eligiendo como localización del proyecto, el repositorio *(carpeta)* clonada localmente en el *paso anterior*.
+    3. Para cada problema, genere una clase/programa java independiente pero dentro del único proyecto (*Java App* creado en el *paso anterior*). No olvide nombrar cada clase con el número del problema y un nombre representativo de la solución. Ejemplo: ***Ejercicio01_Facturacion***
+    4. Finalizado el taller *(o cada ejercicio)*, sincronice los cambios de su **PC** local a este repositorio remoto de **GitHub**, con los comandos: `git add .` `git commit -m "Mensaje de la versión"` `git push`
+* Verifique sus soluciones con las técnicas de compilación, ejecución y depurado de programas.
+* Documente las soluciones con los bloques: (1.-) ***Documentación del problema***, y (2.-) ***Evidencia del funcionamiento y resultados***. Para ello, al inicio y final como parte de la codificación (en comentarios /*** ), copiar y pegar el enunciado del problema, y al final, los resultados obtenidos de consola **RUN**. Ejemplo: 
+
+```java
+/**
+ * Ejercicio 01: "Texto del enunciado del ejercicio/problema...."
+ * @author NombreAutor
+ * @version 1.0
+ */
+
+public class Ejercicio01_Facturacion {
+    //AQUÍ AGREGUE TODO SU CÓDIGO...
+}
+
+/***
+ * EVIDENCIA DEL RUN:
+ * Pegue aquí la evidencia de la ejecución del .java
+ */
+ ```
+
 
 
 ### Listado de problemáticas:
@@ -21,7 +42,7 @@
 > 3.	El objetivo es presentar al usuario los detalles de su compra: costos, impuestos, descuentos, monto final dadas las siguientes condiciones: 
 > 	a.	Si el subtotal de la compra (sin descuentos o gastos de envío), supera los $1000, se le otorga un 20% de descuento; y si es al menos los $1000 el descuento es como mínimo 5%.
 > 	b.	Adicional, si la compra es mayor a $5000, el envío será gratuito. 
-> 	c.	El IVA del 10% se debe aplicar a todos los artículos antes de agregar cualquier tipo de descuesto o promoción. 
+> 	c.	El IVA del 15% se debe aplicar a todos los artículos antes de agregar cualquier tipo de descuesto o promoción. 
 
 
 ### Problema-2
